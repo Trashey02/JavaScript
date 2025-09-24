@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM JavaScript</title>
+        <script>
+        document.addEventListener("DOMContentLoaded", () =>{
+            // let heading= document.getElementById ("container");
+            // heading.innerHTML="Title changed by JavaScript code";
+            // console.dir(heading);
+
+            // let content = document.getElementsByClassName("heading");
+            // console.dir(heading);
+            
+            let firstElement = document.querySelector(".heading");
+            console.dir(firstElement);
+
+            firstElement.style.color = "blue";
+        });
+        </script>
+
+
+            
+    </head>
+
+    <body>
+        <div class="heading">
+            <h1 id="container">Example of accessing element by ID</h1>
+        </div>
+
+        <div class="heading">
+            <h1 id="container1">second</h1>
+        </div>
+
+        <script>
+            // let heading= document.getElementById ("container");
+            // heading.innerHTML="Title changed by JavaScript code";
+            // console.dir(heading);
+
+            // let content = document.getElementsByClassName("heading");
+            // console.dir(heading);
+            
+            let firstElement = document.querySelector(".heading");
+            console.dir(firstElement);
+
+            firstElement.style.color = "blue";
+        </script>
+    </body>
+</html>
